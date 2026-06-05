@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+:root {
+  --background: #050816;
+  --card: #0f172a;
+  --border: #1e293b;
+  --foreground: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(139, 92, 246, 0.18),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(6, 182, 212, 0.12),
+      transparent 30%
+    ),
+    #050816;
+}
+
+.glow-border {
+  position: relative;
+}
+
+.glow-border::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(139,92,246,.4),
+      rgba(59,130,246,.3)
+    );
+
+  border-radius: inherit;
+
+  opacity: 0;
+
+  transition: opacity .3s;
+}
+
+.glow-border:hover::before {
+  opacity: 1;
+}
+
+.mesh-bg {
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(139,92,246,.15),
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(59,130,246,.12),
+      transparent 50%
+    );
+}
