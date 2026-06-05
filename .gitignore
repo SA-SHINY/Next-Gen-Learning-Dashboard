@@ -8,10 +8,7 @@
 # production
 /build
 
-# env files
-.env
-.env.local
-.env.*.local
+
 
 # logs
 npm-debug.log*
@@ -23,3 +20,4 @@ yarn-error.log*
 
 # misc
 .DS_Store
+.vercel

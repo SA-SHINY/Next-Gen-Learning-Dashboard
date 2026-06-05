@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Learning Dashboard
 
 A modern learning dashboard built with Next.js, Supabase, Tailwind CSS, and Framer Motion.
@@ -112,3 +113,7 @@ Build for production:
 ```bash
 npm run build
 ```
+=======
+# learning-dashboard
+A modern learning dashboard built with Next.js, Supabase, Tailwind CSS, and Framer Motion.
+>>>>>>> 02349b12037254106b8a5d903f875bbb9c42f730
