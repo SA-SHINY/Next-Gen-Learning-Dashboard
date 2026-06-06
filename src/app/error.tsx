@@ -16,7 +16,7 @@ export default function Error({
         gap-4
       "
     >
-      <h1 className="font-bold text-3xl">
+      <h1 className="font-bold text-3xl text-color-white">
         Something went wrong
       </h1>
 

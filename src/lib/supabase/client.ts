@@ -1,7 +1,5 @@
-// lib/supabase.ts
 import { createClient } from '@supabase/supabase-js'
 
-// Add error checking with clear messages
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
 const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
 
