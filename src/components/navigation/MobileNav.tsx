@@ -49,11 +49,11 @@ export default function MobileNav() {
           bg-slate-950/90
           p-4
           backdrop-blur
-          lg:hidden
+          md:hidden
         "
       >
         <h1 className="text-lg font-bold">
-          LearnX
+          Learn X
         </h1>
 
         <button
@@ -104,19 +104,6 @@ export default function MobileNav() {
                 lg:hidden
               "
             >
-              <div className="mb-8 flex items-center justify-between">
-                <h2 className="text-xl font-bold">
-                  LearnX
-                </h2>
-
-                <button
-                  onClick={() => setOpen(false)}
-                  aria-label="Close menu"
-                >
-                  <X />
-                </button>
-              </div>
-
               <nav className="space-y-2">
                 {nav.map((item) => {
                   const Icon = item.icon;

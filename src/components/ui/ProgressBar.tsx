@@ -11,14 +11,10 @@ export default function ProgressBar({
 }: Props) {
   return (
     <div className="space-y-2">
-      {/* Percentage */}
-
       <div className="flex justify-between text-xs text-slate-400">
         <span>Progress</span>
         <span>{value}%</span>
       </div>
-
-      {/* Progress Track */}
 
       <div
         className="
@@ -28,8 +24,6 @@ export default function ProgressBar({
           bg-slate-800
         "
       >
-        {/* Animated Fill */}
-
         <motion.div
           initial={{
             width: 0

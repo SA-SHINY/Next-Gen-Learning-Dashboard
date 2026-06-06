@@ -5,9 +5,7 @@ import HeroTile from "./HeroTile";
 import ActivityTile from "./ActivityTile";
 import CourseCard from "./CourseCard";
 import { Course } from "@/types/course";
-import {
-  containerVariants
-} from "@/lib/animations";
+import {containerVariants} from "@/lib/animations";
 
 interface Props {
   courses: Course[];

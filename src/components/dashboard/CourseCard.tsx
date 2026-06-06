@@ -55,8 +55,6 @@ export default function CourseCard({
         shadow-xl
       "
     >
-      {/* Gradient Mesh Background */}
-
       <div
         className="
           absolute
@@ -82,8 +80,6 @@ export default function CourseCard({
           blur-3xl
         "
       />
-
-      {/* Content */}
 
       <div className="relative z-10">
         <div className="mb-6 flex items-center gap-3">
